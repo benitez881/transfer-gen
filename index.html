@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+
+  <title>Transfer General</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="header__container">
+      <h1 class="header__title">
+        TRANSFER YOUR DATA SECURELY
+      </h1>
+      <div class="header__subtitle">
+        Securely Transfer, Share, and Archive Your Most Sensitive Data with Help of Google Cloud
+      </div>
+      <div class="header__buttons">
+        <a href="/" class="header__button header__button-trial">Free trial</a>
+        <a href="/" class="header__button header__button-touch">Get in touch</a>
+      </div>
+      <div class="header__image">
+        <img src="./src/img/header-img.png" alt="">
+      </div>
+      <div class="header__text">
+        TYPICAL TRANSFER GENERAL DEPLOYMENT
+      </div>
+    </div>
+  </div>
+
+  <div class="data">
+    <div class="data__container">
+      <div class="data__item">
+        <div class="data__item-img">
+          <img src="./src/img/data/encryption.svg" alt="">
+        </div>
+        <div class="data__item-text">
+          ENCRYPTION
+        </div>
+      </div>
+      <div class="data__item">
+        <div class="data__item-img">
+          <img src="./src/img/data/w-vpn.svg" alt="">
+        </div>
+        <div class="data__item-text">
+          WITHOUT<br />VPN
+        </div>
+      </div>
+      <div class="data__item">
+        <div class="data__item-img">
+          <img src="./src/img/data/r-mitigation.svg" alt="">
+        </div>
+        <div class="data__item-text">
+          RISK-MITIGATION
+        </div>
+      </div>
+      <div class="data__item">
+        <div class="data__item-img">
+          <img src="./src/img/data/in-scope-data.svg" alt="">
+        </div>
+        <div class="data__item-text">
+          FOR IN-SCOPE<br />DATA
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-it-works">
+    <div class="how-it-works__container">
+      <div class="how-it-works__points">
+        <div class="how-it-works__point">
+          <img src="./src/img/check-new.svg" alt="" class="how-it-works__point-img">
+          <div class="how-it-works__point-text">
+            Transfer General (TG) uses cryptography to empower data owners to securely distribute or archive
+            highly-sensitive data no matter where the data resides - in a data center or the cloud.
+          </div>
+        </div>
+        <div class="how-it-works__point">
+          <img src="./src/img/check-new.svg" alt="" class="how-it-works__point-img">
+          <div class="how-it-works__point-text">
+            There is no need to set up virtual private networks thereby lowering overall data
+            transfer/distribution/archival costs.
+          </div>
+        </div>
+        <div class="how-it-works__point">
+          <img src="./src/img/check-new.svg" alt="" class="how-it-works__point-img">
+          <div class="how-it-works__point-text">
+            TG provides all the benefits of using Google Cloud storage while mitigating risks associated with it.
+          </div>
+        </div>
+        <div class="how-it-works__point">
+          <img src="./src/img/check-new.svg" alt="" class="how-it-works__point-img">
+          <div class="how-it-works__point-text">
+            TG is an ideal solution for organizations that deal with in-scope data.
+          </div>
+        </div>
+      </div>
+      <div class="how-it-works__title">
+        SEE HOW IT WORKS
+      </div>
+      <div class="how-it-works-video">
+        <div class="how-it-works-play-btn">
+          <img src="./src/img/play.svg" alt="">
+        </div>
+        <img src="./src/img/video-blur.png" alt="" class="how-it-works-blur">
+        <video style="display: none; border-radius: 24px; background-color: white;" id="my-video" class="video-js"
+          controls preload="auto" width="100%" height="100%" data-setup="{}">
+          <source src="./src/mp4/data.mp4" type="video/mp4" />
+          <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+          </p>
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <div class="challenges">
+    <div class="challenges__container">
+      <div class="challenges__title">
+        CHALLENGES
+      </div>
+    </div>
+    <div class="challenges__questions">
+      <div class="challenges__question challenges__question-active">
+        <div class="challenges__question-container">
+          <div class="challenges__question-text">
+            How to share highly-sensitive data securely with partners?
+          </div>
+          <img src="./src/img/challenges-arrow.svg" class="challenges__question-arrow">
+        </div>
+        <div class="challenges__answer">
+          <div class="challenges__answer-before">
+            <img src="./src/img/challenges-line.svg" alt="" class="challenges__answer-line">
+            <div class="challenges__answer-check-back">
+              <img src="./src/img/challenges-check.svg" alt="">
+            </div>
+          </div>
+          <div class="challenges__answer-text">
+            Transfer General helps data owners share highly confidential data securely with their partners no matter
+            where
+            the data source is located. The data is encrypted before it leaves the secure confines of your network. A
+            Google
+            Storage bucket acts as the distribution point. The data remains encrypted till it reaches its destination.
+            No
+            VPN is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="challenges__question">
+        <div class="challenges__question-container">
+          <div class="challenges__question-text">
+            How to archive in-scope data in a cloud storage bucket?
+          </div>
+          <img src="./src/img/challenges-arrow.svg" class="challenges__question-arrow">
+        </div>
+        <div class="challenges__answer">
+          <div class="challenges__answer-before">
+            <img src="./src/img/challenges-line.svg" alt="" class="challenges__answer-line">
+            <div class="challenges__answer-check-back">
+              <img src="./src/img/challenges-check.svg" alt="">
+            </div>
+          </div>
+          <div class="challenges__answer-text">
+            Transfer General helps data owners share highly confidential data securely with their partners no matter
+            where
+            the data source is located. The data is encrypted before it leaves the secure confines of your network. A
+            Google
+            Storage bucket acts as the distribution point. The data remains encrypted till it reaches its destination.
+            No
+            VPN is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="challenges__question">
+        <div class="challenges__question-container">
+          <div class="challenges__question-text">
+            How to transfer in-scope dara across cloud platforms?
+          </div>
+          <img src="./src/img/challenges-arrow.svg" class="challenges__question-arrow">
+        </div>
+        <div class="challenges__answer">
+          <div class="challenges__answer-before">
+            <img src="./src/img/challenges-line.svg" alt="" class="challenges__answer-line">
+            <div class="challenges__answer-check-back">
+              <img src="./src/img/challenges-check.svg" alt="">
+            </div>
+          </div>
+          <div class="challenges__answer-text">
+            Transfer General helps data owners share highly confidential data securely with their partners no matter
+            where
+            the data source is located. The data is encrypted before it leaves the secure confines of your network. A
+            Google
+            Storage bucket acts as the distribution point. The data remains encrypted till it reaches its destination.
+            No
+            VPN is required.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="choose">
+    <div class="choose__container">
+      <div class="choose__title">WHY CHOOSE US?</div>
+      <div class="choose__cards">
+        <div class="choose__card">
+          <div class="choose__card-title">
+            NO VPN
+          </div>
+          <img src="./src/img/choose/no-vpn.svg" alt="">
+          <div class="choose__card-text">
+            Transfer General empowers data owners to safely share the most sensitive data with a partner without setting
+            up a VPN.
+          </div>
+        </div>
+        <div class="choose__card">
+          <div class="choose__card-title">
+            ENCRYPTION
+          </div>
+          <img src="./src/img/choose/encryption.svg" alt="">
+          <div class="choose__card-text">
+            Transfer General lowers corporate liability exposure by encrypting data before it leaves the secure confines
+            of your network.
+          </div>
+        </div>
+        <div class="choose__card">
+          <div class="choose__card-title">
+            LOWER COSTS
+          </div>
+          <img src="./src/img/choose/costs.svg" alt="">
+          <div class="choose__card-text">
+            Transfer General lowers data sharing/archiving costs by enabling organizations to use Google Cloud storage.
+            Only the encrypted data is stored in the cloud.
+          </div>
+        </div>
+        <div class="choose__card">
+          <div class="choose__card-title">
+            LARGE DATA
+          </div>
+          <img src="./src/img/choose/large-data.svg" alt="">
+          <div class="choose__card-text">
+            Transfer General helps to overcome corporate bandwidth limitations when sharing large data sets stored in a
+            data center server.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cases">
+    <div class="cases__container">
+      <div class="cases__title">USE CASES</div>
+      <div class="cases__subtitle">
+        RESEARCH DATA DISTRIBUTION
+      </div>
+      <div class="cases__text">
+        When you attempt to share highly sensitive data stored on-premises in your data center, you face multiple
+        challenges:
+      </div>
+      <div class="cases__questions">
+        <div class="cases__question">
+          <img src="src/img/cases/question.svg" class="cases__question-img">
+          <div class="cases__question-text">
+            Should you directly transfer the data to
+            mitigate potential data security risk?
+          </div>
+        </div>
+        <div class="cases__question">
+          <img src="src/img/cases/question.svg" class="cases__question-img">
+          <div class="cases__question-text">
+            Do you make use of cloud storage so you have to upload the data only once and
+            distribute it to multiple partners?
+          </div>
+        </div>
+      </div>
+      <div class="cases__text">
+        A direct transfer may not be possible depending on the size of the data and the corporate bandwidth at your
+        disposal.<br /><br />
+        On the other hand, using a cloud bucket may be very attractive, but you just don’t want to deal with an added
+        security risk.
+      </div>
+      <div class="cases__solution">
+        <img src="./src/img/challenges-check.svg" class="cases__solution-img">
+        <div class="cases__solution-text">Solution</div>
+      </div>
+      <div class="cases__text">
+        That is where Transfer General comes in.<br /><br />
+        <strong>
+          Transfer General will encrypt your data on-premises, allow you to maintain complete control over the data
+          encryption key, upload your encrypted data to a Google Storage bucket, and act as your distribution center.
+        </strong><br /><br />
+        Since only the encrypted data is uploaded into the bucket, you will eliminate any potential data security issue
+        stemming from a storage bucket misconfiguration or a rogue storage administrator.<br /><br />
+        You’ll be able to push the data stored in the bucket to multiple destinations where the data will be decrypted
+        for your intended audience.<br />
+        You’ll be able to deny access to the data at any time with help of built-in cryptographic techniques.
+      </div>
+      <a href="" class="cases__contact">Contact us</a>
+    </div>
+  </div>
+
+  <div class="on-prem">
+    <div class="on-prem__container">
+      <div class="on-prem__title">
+        ARCHIVAL OF ON-PREMISES DATA STORED IN A CLOUD SERVER
+      </div>
+      <div class="on-prem__question">
+        <img src="src/img/cases/question.svg" class="on-prem__question-img">
+        <div class="on-prem__question-text">
+          Do you want to take advantage of cloud storage to lower your archival cost
+          but are afraid to do so because of potential security risks?
+        </div>
+      </div>
+      <div class="on-prem__text">
+        Transfer General can help overcome this issue.
+      </div>
+      <div class="on-prem__solution">
+        <img src="./src/img/check-new.svg" alt="" class="on-prem__solution-img">
+        <div class="on-prem__solution-text">
+          Solution
+        </div>
+      </div>
+      <div class="on-prem__text">
+        You’ll be able to encrypt your data on-premises, control your data encryption key, and automate transfers of
+        your encrypted data into a Google storage bucket.<br /><br />
+        Since data stored in the bucket is encrypted and only you have access to the data encryption key, you can rest
+        assured that no rogue storage administrator will be able to read your archived data in clear-text
+        format.<br /><br />
+        Transfer General will also help you download your encrypted data and decrypt it within the safety of your
+        network.<br /><br /><br />
+        You can:<br /><br />
+        ⦁ Schedule one-time or recurring transfer operations.<br /><br />
+        ⦁ Delete existing objects in the destination bucket if they don't have a corresponding object in the
+        source.<br /><br />
+        ⦁ Delete data source objects after transferring them.<br /><br />
+        ⦁ Schedule periodic synchronization from a data source to the destination bucket based on file creation dates,
+        filenames, and the times of the day.<br /><br />
+      </div>
+      <a href="" class="on-prem__discuss">Let’s discuss</a>
+    </div>
+  </div>
+
+  <div class="cloud">
+    <div class="cloud__container">
+      <div class="cloud__title">ARCHIVAL OF SENSITIVE DATA STORED IN A CLOUD SERVER</div>
+      <div class="cloud__subtitle">
+        LET’S SAY:
+      </div>
+      <div class="cloud__cards">
+        <div class="cloud__card">
+          <div class="cloud__card-img">1</div>
+          <div class="cloud__card-text">
+            A data analytics company is getting unstructured data from various pharmacies. They plan to massage the data
+            using a third-party software package.
+          </div>
+        </div>
+        <div class="cloud__card">
+          <div class="cloud__card-img">2</div>
+          <div class="cloud__card-text">
+            The plan is to strip the patient information from the received data, analyze the data for adverse reactions
+            and provide information to pharmaceutical companies.
+          </div>
+        </div>
+        <div class="cloud__card">
+          <div class="cloud__card-img">3</div>
+          <div class="cloud__card-text">
+            The data contains patient information and hence must be protected to comply with HIPAA. The company is using
+            a server offered by one of the cloud platform providers with a special emphasis on security.
+          </div>
+        </div>
+        <div class="cloud__card">
+          <div class="cloud__card-img">4</div>
+          <div class="cloud__card-text">
+            The pharmacy uses the SFTP protocol to upload data and is not willing to make any changes to its operational
+            routines. The data analytics company is concerned about keeping the data secure once it has been uploaded.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/script.js"></script>
+</body>
+
+</html>
