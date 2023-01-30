@@ -340,7 +340,7 @@ body {
 .choose__container {
   padding-right: 15px;
   padding-left: 15px;
-  max-width: 642px;
+  max-width: 672px;
   width: 100%;
   margin: 0 auto;
 }
@@ -647,7 +647,7 @@ body {
 .cloud__container {
   padding-right: 15px;
   padding-left: 15px;
-  max-width: 824px;
+  max-width: 854px;
   width: 100%;
   display: flex;
   flex-direction: column;
