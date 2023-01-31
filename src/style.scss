@@ -10,6 +10,12 @@ body {
 }
 
 .header {
+  &__logo {
+    width: 111px;
+    height: 111px;
+    margin: 0 auto;
+    margin-top: 51px;
+  }
   &__container {
     max-width: 863px;
     width: 100%;
@@ -176,8 +182,11 @@ body {
 .how-it-works {
   background: url(./img/works-background.png);
   background-position-x: center;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 703px;
+
+  padding-bottom: 60px;
   margin: 0 auto;
 
   &__container {
@@ -421,6 +430,7 @@ body {
 .choose {
   background-image: url(./img/choose.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position-x: center;
   min-height: 953px;
   &__container {
@@ -455,6 +465,8 @@ body {
     gap: 34px;
 
     margin-top: 66px;
+
+    padding-bottom: 40px;
   }
 
   &__card {
@@ -658,6 +670,7 @@ body {
 .on-prem {
   background-image: url(./img/on-prem.png);
   background-repeat: no-repeat;
+  background-size: cover;
   background-position-x: center;
   min-height: 1197px;
   &__container {
@@ -1000,6 +1013,7 @@ body {
 
 .migrating {
   background-image: url(./img/migrating-background.png);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   min-height: 737px;
@@ -1144,9 +1158,6 @@ body {
 .sover {
   background: #f1efef;
   &__container {
-    padding-right: 15px;
-    padding-left: 15px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1174,6 +1185,8 @@ body {
 
     max-width: 488px;
     width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
 
     margin-top: 34px;
     margin-bottom: 34px;
@@ -1182,6 +1195,8 @@ body {
 
 @media (max-width: 767px) {
   .sover {
+    padding-left: 15px;
+    padding-right: 15px;
     &__title {
       font-size: 16px;
     }
